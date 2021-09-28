@@ -1,0 +1,14 @@
+# caches
+.vs/*
+.vscode/*
+
+# test folders
+cmake_test/*
+teach/*
+test/*
+test_build/*
+
+# temp files
+*.exe
+*.o
+*.png
