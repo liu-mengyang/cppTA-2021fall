@@ -5,6 +5,10 @@ int main(){
     int nlines = 0;
     cout << "Enter an odd number:";
     cin >> nlines;
+    if (nlines % 2 == 0){
+        cout << "Please input odd number!";
+        return -1;
+    }
     if (nlines > 19 && nlines < 0){
         cout << "Please check the number in the range 1 to 19!";
         return -1;
